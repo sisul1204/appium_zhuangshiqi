@@ -1,0 +1,1 @@
+{'goto_market': [{'by': 'xpath', 'locator': '//*[@resource-id="android:id/tabs"]//*[@text="琛屾儏"]', 'action': 'click'}]}

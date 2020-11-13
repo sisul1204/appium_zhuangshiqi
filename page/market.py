@@ -10,6 +10,7 @@ from page.search import Search
 class Market(BasePage):
 
     def goto_search(self):
+        # self.steps('../page/market.yaml')
         # self.find(By.XPATH, '//*[@resource-id="com.xueqiu.android:id/action_search"]').click()
         return Search(self._driver)
 

@@ -1,0 +1,6 @@
+lizhipeng
+hello
+(1, 2)
+{'c': 7}
+tmp
+good bye

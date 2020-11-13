@@ -1,0 +1,129 @@
+{
+  "uid" : "1289481d0aeac0a5",
+  "name" : "test_search[京东]",
+  "fullName" : "test_search.TestSearch#test_search",
+  "historyId" : "d7c59a3d023142cd8e890ef556810255",
+  "time" : {
+    "start" : 1605238021992,
+    "stop" : 1605238042707,
+    "duration" : 20715
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "record",
+    "time" : {
+      "start" : 1605237968251,
+      "stop" : 1605237968257,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1605237968107,
+      "stop" : 1605237968251,
+      "duration" : 144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4fe3fbd0a30e5dd",
+      "name" : "b89eb71e-c8d9-4249-aec2-963d566e2a23-attachment.png",
+      "source" : "4fe3fbd0a30e5dd.png",
+      "type" : "image/png",
+      "size" : 206924
+    }, {
+      "uid" : "de29f3a7204d53c6",
+      "name" : "log",
+      "source" : "de29f3a7204d53c6.txt",
+      "type" : "text/plain",
+      "size" : 923
+    }, {
+      "uid" : "409ba15c01c48724",
+      "name" : "stderr",
+      "source" : "409ba15c01c48724.txt",
+      "type" : "text/plain",
+      "size" : 732
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "record::0",
+    "time" : {
+      "start" : 1605238146508,
+      "stop" : 1605238146508,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearch"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LQQD75J"
+  }, {
+    "name" : "thread",
+    "value" : "11392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "name",
+    "value" : "'京东'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1289481d0aeac0a5.json",
+  "parameterValues" : [ "'京东'" ]
+}

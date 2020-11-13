@@ -1,0 +1,130 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-LQQD75J",
+    "children" : [ {
+      "name" : "11392-MainThread",
+      "children" : [ {
+        "name" : "test_vedio",
+        "uid" : "1f207cf61387d686",
+        "parentUid" : "bf138c8e7e38a1ee4103cc4c2a1a8c1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605238146537,
+          "stop" : 1605238156543,
+          "duration" : 10006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search[拼多多]",
+        "uid" : "cf7b171750787c7c",
+        "parentUid" : "bf138c8e7e38a1ee4103cc4c2a1a8c1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605238090520,
+          "stop" : 1605238110708,
+          "duration" : 20188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'拼多多'" ]
+      }, {
+        "name" : "test_search[百度]",
+        "uid" : "6b6ef2ab535ef7ea",
+        "parentUid" : "bf138c8e7e38a1ee4103cc4c2a1a8c1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605238056568,
+          "stop" : 1605238077142,
+          "duration" : 20574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'百度'" ]
+      }, {
+        "name" : "test_stack",
+        "uid" : "ce64088bcce540f1",
+        "parentUid" : "bf138c8e7e38a1ee4103cc4c2a1a8c1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605238146520,
+          "stop" : 1605238146526,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_wrapper",
+        "uid" : "7375fcd34c213af5",
+        "parentUid" : "bf138c8e7e38a1ee4103cc4c2a1a8c1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605238156562,
+          "stop" : 1605238156563,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search[阿里巴巴]",
+        "uid" : "3136379c27d751d8",
+        "parentUid" : "bf138c8e7e38a1ee4103cc4c2a1a8c1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605237988409,
+          "stop" : 1605238008820,
+          "duration" : 20411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'阿里巴巴'" ]
+      }, {
+        "name" : "test_search[网易]",
+        "uid" : "5b19c127297ee5d8",
+        "parentUid" : "bf138c8e7e38a1ee4103cc4c2a1a8c1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605238123764,
+          "stop" : 1605238146505,
+          "duration" : 22741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'网易'" ]
+      }, {
+        "name" : "test_search[京东]",
+        "uid" : "1289481d0aeac0a5",
+        "parentUid" : "bf138c8e7e38a1ee4103cc4c2a1a8c1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605238021992,
+          "stop" : 1605238042707,
+          "duration" : 20715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'京东'" ]
+      }, {
+        "name" : "test_yaml_load",
+        "uid" : "dbe48aad06cc11b",
+        "parentUid" : "bf138c8e7e38a1ee4103cc4c2a1a8c1b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605238156578,
+          "stop" : 1605238156582,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf138c8e7e38a1ee4103cc4c2a1a8c1b"
+    } ],
+    "uid" : "dcc313c3515fd653db2fab130324d80d"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'str' object has no attribute 'keys'",
+      "children" : [ {
+        "name" : "test_yaml_load",
+        "uid" : "dbe48aad06cc11b",
+        "parentUid" : "fbf3bd344ffb0b1af12f100dfcfe65ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1605238156578,
+          "stop" : 1605238156582,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fbf3bd344ffb0b1af12f100dfcfe65ac"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

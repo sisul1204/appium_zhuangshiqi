@@ -1,0 +1,25 @@
+INFO:root:run find
+ args: 
+('xpath', '//*[@resource-id="android:id/tabs"]//*[@text="行情"]')
+{}
+INFO:root:run find
+ args: 
+('xpath', '//*[@resource-id="com.xueqiu.android:id/search_input_text"]')
+{}
+ERROR:root:element not found, handle black list
+INFO:root:run find
+ args: 
+('xpath', '//*[@resource-id="com.xueqiu.android:id/search_input_text"]')
+{}
+INFO:root:run find
+ args: 
+('xpath', '//*[@resource-id="com.xueqiu.android:id/name"]')
+{}
+INFO:root:run find
+ args: 
+('xpath', '//*[contains(@resource-id, "ll_stock_item_container")]//*[@text="百度"]/../..//*[@text="已添加"]')
+{}
+INFO:root:run find
+ args: 
+('xpath', '//*[contains(@resource-id, "ll_stock_item_container")]//*[@text="百度"]/../..//*[@text="加自选"]')
+{}

@@ -1,0 +1,91 @@
+[ {
+  "uid" : "ce64088bcce540f1",
+  "name" : "test_stack",
+  "time" : {
+    "start" : 1605238146520,
+    "stop" : 1605238146526,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b6ef2ab535ef7ea",
+  "name" : "test_search[百度]",
+  "time" : {
+    "start" : 1605238056568,
+    "stop" : 1605238077142,
+    "duration" : 20574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1289481d0aeac0a5",
+  "name" : "test_search[京东]",
+  "time" : {
+    "start" : 1605238021992,
+    "stop" : 1605238042707,
+    "duration" : 20715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b19c127297ee5d8",
+  "name" : "test_search[网易]",
+  "time" : {
+    "start" : 1605238123764,
+    "stop" : 1605238146505,
+    "duration" : 22741
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbe48aad06cc11b",
+  "name" : "test_yaml_load",
+  "time" : {
+    "start" : 1605238156578,
+    "stop" : 1605238156582,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1f207cf61387d686",
+  "name" : "test_vedio",
+  "time" : {
+    "start" : 1605238146537,
+    "stop" : 1605238156543,
+    "duration" : 10006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf7b171750787c7c",
+  "name" : "test_search[拼多多]",
+  "time" : {
+    "start" : 1605238090520,
+    "stop" : 1605238110708,
+    "duration" : 20188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3136379c27d751d8",
+  "name" : "test_search[阿里巴巴]",
+  "time" : {
+    "start" : 1605237988409,
+    "stop" : 1605238008820,
+    "duration" : 20411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7375fcd34c213af5",
+  "name" : "test_wrapper",
+  "time" : {
+    "start" : 1605238156562,
+    "stop" : 1605238156563,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

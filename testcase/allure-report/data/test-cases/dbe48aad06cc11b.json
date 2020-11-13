@@ -1,0 +1,119 @@
+{
+  "uid" : "dbe48aad06cc11b",
+  "name" : "test_yaml_load",
+  "fullName" : "test_yaml_load#test_yaml_load",
+  "historyId" : "fb8252a7fae65f4a6409412b02be73d6",
+  "time" : {
+    "start" : 1605238156578,
+    "stop" : 1605238156582,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'str' object has no attribute 'keys'",
+  "statusTrace" : "def test_yaml_load():\n        with open('../page/main.yaml') as f:\n            steps = yaml.safe_load(f)\n            print(steps)\n        for step in steps:\n>           if 'by' in step.keys():\nE           AttributeError: 'str' object has no attribute 'keys'\n\ntest_yaml_load.py:12: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "record",
+    "time" : {
+      "start" : 1605238156571,
+      "stop" : 1605238156577,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1605237968107,
+      "stop" : 1605237968251,
+      "duration" : 144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'str' object has no attribute 'keys'",
+    "statusTrace" : "def test_yaml_load():\n        with open('../page/main.yaml') as f:\n            steps = yaml.safe_load(f)\n            print(steps)\n        for step in steps:\n>           if 'by' in step.keys():\nE           AttributeError: 'str' object has no attribute 'keys'\n\ntest_yaml_load.py:12: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b205b4f41ab6125d",
+      "name" : "stdout",
+      "source" : "b205b4f41ab6125d.txt",
+      "type" : "text/plain",
+      "size" : 126
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "record::0",
+    "time" : {
+      "start" : 1605238156588,
+      "stop" : 1605238156588,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_yaml_load"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LQQD75J"
+  }, {
+    "name" : "thread",
+    "value" : "11392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_yaml_load"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dbe48aad06cc11b.json",
+  "parameterValues" : [ ]
+}
